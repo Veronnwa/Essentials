@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
 import { FaQuoteRight } from 'react-icons/fa';
 import { GoPrimitiveDot } from 'react-icons/go';
-import img from '../Asset/josh.jpg'
-import img2 from '../Asset/dom.jpg';
+import img from '../Asset/josh.jpg';
+import img2 from '../Asset/dom.jpg'
 
 const Test = () => {
     return (
@@ -59,8 +59,6 @@ const Section = styled.div`
 display: flex;
 justify-content: space-around;
 padding: 70px 0 0 0;
-
-
 `;
 const Quote = styled.div`
 font-size: 25px;
@@ -115,7 +113,6 @@ padding-left: 25px;
 padding-bottom: -30px;
 
 `;
-
 const Card2 = styled.div`
 width: 480px;
 height: 300px;
@@ -182,7 +179,7 @@ font-weight: 900;
 font-family: roboto;
 padding-left: 40px;
 padding-top: 20px;
-margin: 50px 50px 0 0;
+margin: 50px 50px 0 0
 `;
 const Content = styled.div`
 padding-top: 20px;
