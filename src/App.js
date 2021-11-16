@@ -1,9 +1,11 @@
 import React from "react";
+import Test from './Testimonials/Test';
 
 const App = () => {
   return (
     <div>
-      <h1>Hello Essentials</h1>
+      <Test />
+      {/* <h1>Hello Essentials</h1> */}
     </div>
   );
 };
